@@ -1,0 +1,12 @@
+
+.container{
+    background-image: url(../public/headerimg.png);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+
+  .container h1 {
+    color: #fff;
+  }
+  
