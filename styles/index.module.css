@@ -1,12 +1,40 @@
-
-.container{
-    background-image: url(../public/headerimg.png);
+  
+  
+  .headerContainer{
     display: flex;
+    flex-direction: row;
+    background-image: url(../public/headerimg.png);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+
+  }
+
+  .titleContainer{
     align-items: center;
     flex-direction: column;
+    color: #fff;
+    display:flex ;
+    position: absolute;
+    justify-content: center;
+    margin-right: 600px;
+    font-size: x-large;
     }
 
-  .container h1 {
-    color: #fff;
+  .underContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
   }
-  
+
+  .font {
+    font-family: 'Kalam', cursive;
+  }
+
+.womanImg{
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 500px;
+}
