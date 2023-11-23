@@ -8,6 +8,20 @@ export default function Home() {
   return (
     <>
     <div className={styles.headerContainer}>
+
+      <div className={styles.navegation}>
+        <div className={styles.logo}>
+          Woman Pi
+        </div>
+        <div className={styles.itens}>
+        <a className={styles.linkPink} href="/"><p>Home</p></a>
+        <a className={styles.link} href="/stem-resources"><p>STEM Resources</p></a>
+        <a className={styles.link} href="/real-life-stories"><p>Real-life stories</p></a>
+        <a className={styles.linkIcon} href="/blog"><p>Blog</p></a>
+
+        </div>
+      </div>
+
       <div className={styles.titleContainer}>
 
         <h1>Promoting STEM</h1>
@@ -16,7 +30,7 @@ export default function Home() {
         <h1 className={styles.font}>under sustentability</h1>
         <Image src={LineRigth} alt="Line Icon" width={30} height={50} /> 
         </div>
-        <h1>for equality</h1>
+        <h1>for <span className={styles.underLine}>equality</span></h1>
 
 
       </div>

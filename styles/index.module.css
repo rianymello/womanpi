@@ -38,3 +38,30 @@
   margin-top: 300px;
   margin-left: 500px;
 }
+
+.underLine {
+  border-bottom: 6px solid #CB55CD; 
+  border-radius: 3px;
+}
+
+.navegation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+ justify-content: space-evenly;
+ gap: 40%;
+ margin: 20px;
+ padding: 5px;
+ color: #fff;
+}
+
+.itens {
+  display: flex;
+  gap: 40px;
+}
+
+.links:hover {
+  color: #321010;
+
+}
