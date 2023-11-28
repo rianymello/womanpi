@@ -33,6 +33,12 @@
     font-family: 'Kalam', cursive;
   }
 
+
+  .logo{
+    border-bottom: 3px solid #CB55CD; 
+
+  }
+
 .womanImg{
   position: absolute;
   margin-top: 300px;
@@ -56,12 +62,26 @@
  color: #fff;
 }
 
-.itens {
+.itens  {
   display: flex;
   gap: 40px;
 }
 
-.links:hover {
-  color: #321010;
+.linkPink{
+  border-bottom: #CB55CD solid 3px;
+  color: #fff;
+}
 
+.linkPink:hover{
+  color: #CB55CD;
+  transition: 0.5s;
+}
+
+.link {
+  color: #fff;
+}
+
+.link:hover{
+  color: #eae9e9;
+  transition: 0.5s;
 }
