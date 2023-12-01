@@ -1,0 +1,18 @@
+.container{
+    background-image:url(.//../assets/quotebg.jpg);
+    height: 300px;
+    margin-bottom: 5rem;
+}
+
+.quoteTxt {
+    color: #fff;
+    font-weight: 900;
+    font-family: 'Kalam', cursive;
+    font-size: 45px;
+
+}
+
+.quoteContainer {
+ margin-left: 4rem;
+ padding-top: 60px;
+}
